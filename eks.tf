@@ -1,6 +1,8 @@
 provider "aws" {
   region = "ap-south-1"
-  profile = "configs"
+  #profile = "configs"
+  access_key = "AKIAWMFUPJTWN72ZEZXG"
+  secret_key = "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"
 }
 
 variable "cluster_name" {
